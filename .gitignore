@@ -1,0 +1,13 @@
+
+yarn-error.log
+package-lock.json
+*.lock
+dist/ 
+dist/* 
+dist/**/* 
+
+node_modules/ 
+node_modules/* 
+node_modules/**/* 
+
+yarn.lock
