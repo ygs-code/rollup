@@ -19,36 +19,36 @@ const config = {
         {
             file: 'dist/amd/index.js',
             format: 'amd',
-            name: 'openAi',  // 导出全局变量名key
+            name: 'openai',  // 导出全局变量名key
             // sourcemap: true,  // map文件
         },
         {
             file: 'dist/cjs/index.js',
             format: 'cjs',
-            name: 'openAi',
+            name: 'openai',
             // sourcemap: true,
         },
         {
             file: 'dist/es/index.js',
             format: 'es',
-            name: 'openAi',
+            name: 'openai',
             // sourcemap: true,
         },
         {
             file: 'dist/iife/index.js',
             format: 'iife',
-            name: 'openAi',
+            name: 'openai',
             // sourcemap: true,
         },
         {
             file: 'dist/umd/index.js',
             format: 'umd',
-            name: 'openAi',
+            name: 'openai',
             // sourcemap: true,
         },
         { 
             file: 'dist/system/index.js', format: 'system', 
-            name: 'openAi',
+            name: 'openai',
         // sourcemap: true
      },
     ],
