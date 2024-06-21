@@ -1,10 +1,3 @@
-import React, { Component } from "react";
-import "./index.css";
-import "./index.less";
-import "./index.scss";
+import openAi from "openai";
 
-const App = () => {
-  return <div className="app"></div>;
-};
-
-export default App;
+export default openAi;
