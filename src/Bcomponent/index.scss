@@ -1,0 +1,10 @@
+$sysColor: red;
+$sysFontSize: 20px;
+$side: left;
+
+.wrap {
+  color: $sysColor;
+  font-size: $sysFontSize;
+  // 如果变量需要镶嵌在字符串之中，就必须需要写在 #{} 之中
+  border-#{$side}: 1px solid pink;
+}

@@ -7,7 +7,7 @@
   "scripts": {
     "build:pord": "cross-env  NODE_ENV=production   cf=./bin/rollup.config.js   npx babel-node   -r @babel/register   ./bin/rollup.js -c",
     "build:dev": "cross-env  NODE_ENV=dev   cf=./bin/rollup.config.js   npx babel-node   -r @babel/register   ./bin/rollup.js -c",
-    "build2": "cross-env    cf=./bin/rollup.config.js   npx babel-node   -r @babel/register   ./bin/rollup2.js -c",
+    "builds": "cross-env    npx babel-node   -r @babel/register   ./bin/rollups.js ",
     "watch": "cross-env    npx babel-node   -r @babel/register   ./bin/rollup.watch.js",
     "rollup": "cross-env   NODE_ENV=develop rollup -c"
   },

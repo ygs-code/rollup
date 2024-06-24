@@ -1,0 +1,12 @@
+.p1{
+  width: 100px;
+  height: 200px;
+}
+
+.p2:extend(.p1){
+  color: red;
+}
+
+.p3{
+  .p1();
+}

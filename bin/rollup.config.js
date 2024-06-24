@@ -19,38 +19,34 @@ const config = {
         {
             file: 'dist/amd/index.js',
             format: 'amd',
-            name: 'openai',  // 导出全局变量名key
-            // sourcemap: true,  // map文件
+            name: 'index',
+            sourcemap: true,
         },
         {
             file: 'dist/cjs/index.js',
             format: 'cjs',
-            name: 'openai',
-            // sourcemap: true,
+            name: 'index',
+            sourcemap: true,
         },
         {
             file: 'dist/es/index.js',
             format: 'es',
-            name: 'openai',
-            // sourcemap: true,
+            name: 'index',
+            sourcemap: true,
         },
         {
             file: 'dist/iife/index.js',
             format: 'iife',
-            name: 'openai',
-            // sourcemap: true,
+            name: 'index',
+            sourcemap: true,
         },
         {
             file: 'dist/umd/index.js',
             format: 'umd',
-            name: 'openai',
-            // sourcemap: true,
+            name: 'index',
+            sourcemap: true,
         },
-        { 
-            file: 'dist/system/index.js', format: 'system', 
-            name: 'openai',
-        // sourcemap: true
-     },
+        { file: 'dist/system/index.js', format: 'system', sourcemap: true },
     ],
     plugins: [
     //   ts(),
